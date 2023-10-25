@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>EXEMPLE.COM</title>
+</head>
+<body>
+    
+<nav class="nav">
+    <div class="container">
+        <div class="nav__inner">
+            <a href="#"><img class="logo" src="./img/logo.jpg" alt="logo"></a>
+            <div class="menu">
+                <a class="menu__item" href="#">О Компании</a>
+                <a class="menu__item" href="#">Продукция</a>
+                <a class="menu__item" href="#">Новости</a>
+                <a class="menu__item" href="#">Примеры работ</a>
+                <a class="menu__item" href="#">Контакты</a>
+            </div>
+            <div class="contacts">
+                <a class="contacts__item" class="contacts__email" href="mailto:example.com"><span>Почта:</span>exemple.com</a>
+                <div class="contacts__number"><a class="contacts__item" href="viber://chat?number=%2B37529XXXXXXX"><span class="contacts__icon viber__icon"></span>+37529XXXXXXX</a>
+                <a class="contacts__item" href="whatsapp://send/?phone=37529XXXXXXX" title="WhatsApp: 37529XXXXXXX"><span class="contacts__icon whatsapp__icon"></span>+37529XXXXXXX</a></div>
+            </div>
+        </div><!--nav__inner-->    
+    </div><!--container-->
+</nav>
+    
+
+    
+<main class="banner">
+    <div class="container">
+        <div class="banner__inner">
+            <img class="banner__img" src="./img/banner__img.jpg" alt="banner">
+            <div class="banner__menu">
+                <h1 class="banner__title">Lorem ipsum dolor placeat perspiciatis!</h1>
+                <p class="banner__price"><span class="price discount">2000 р.</span><span class="price">2500 р.</span></p>
+                <p class="banner__text">Lorem ipsum dolor sit amet consectetur adipisicing
+                     elit. Magni, est? Cupiditate reprehenderit et inventore, sunt accusamus
+                      numquam quidem illo nobis quia quos dignissimos in, vel corporis laudantium,
+                       magnam culpa accusantium?</p>
+                <div class="banner__price"><button class="banner__btn">Купить</button><button class="banner__btn">Позвонить</button></div>
+            </div>
+        </div><!--banner__inner-->
+    </div><!--container-->
+</main>
+    
+
+    
+<div class="question__form">
+    <div class="container">
+            <form name="form" action="mail.php" method="post" id="form_messege">
+                <h2 class="question__form_title">Форма обратной связи.</h2>
+                <div class="form__items">
+                    <div class="question__form_item">Ваше имя*</div><p><input class="input" placeholder="Иван" name="name" type="text"/></p>
+		            <div class="question__form_item">Электронная почта*</div><p><input class="input" placeholder="ivan@mail.ru" name="email" type="text"/></p>
+		            <div class="question__form_item">Телефон*</div><p><input class="input" name="subjects" placeholder="+37529XXXXXXX" type="tel"/></p></div>
+                
+                    <div class="form__messege">
+                        <div class="question__form_item">Текст сообщения:</div><textarea class="form__textarea" name="message" cols="22" rows="5"></textarea>
+		            <input class="form__btn" id="submit" value="Отправить" type="submit" /></div>
+		        
+            </form>
+    </div><!--container-->       
+</div><!--question__form"-->
+    
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_menu">
+            <a class="footer__item" href="#">О Компании</a>
+            <a class="footer__item" href="#">Продукция</a>
+            <a class="footer__item" href="#">Новости</a>
+            <a class="footer__item" href="#">Примеры работ</a>
+            <a class="footer__item" href="#">Контакты</a>
+            </div>
+        </div><!--container-->  
+    </footer>
+    
+</body>
+</html>
