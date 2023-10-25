@@ -1,1 +1,1 @@
-https://github.com/Kirill1711/xemple.com_v.1920p/
+https://github.com/Kirill1711/exemple.com_v.1920p/
